@@ -9,5 +9,4 @@ This directory is organised as follows:
       └── src          # Source code 
           ├── advanced-conceps 
           ├── basic-concepts 
-          ├── start-guide   # Guide to start with TypeScript
-          └── node_modules  # Modules to make node work 
+          └── start-guide   # Guide to start with TypeScript
