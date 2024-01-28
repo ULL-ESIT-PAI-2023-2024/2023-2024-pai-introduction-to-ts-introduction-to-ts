@@ -1,0 +1,28 @@
+/**
+ * Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Grado en Ingeniería Informática
+ * Programación de Aplicaciones Interactivas
+ *
+ * @authors Evian Concepción, Saúl Sosa
+ * @since Enero 27 2024
+ * @desc Typical tsconfig in TypeScript project
+ *       
+ */
+
+{
+    "compilerOptions": {
+      "module": "system",                       // Specify module code generation method: 'none', 'commonjs', 'amd', 'system'....
+      "noImplicitAny": true,                    // Raise error on expressions and declarations with an implied 'any' type.
+      "removeComments": true,                   // Do not emit comments to output.
+      "preserveConstEnums": true,               // Do not erase const enum declarations in generated code.
+      "outFile": "../../built/local/tsc.js",    // Concatenate and emit output to single file.
+      "sourceMap": true,                        // Generate corresponding '.map' file.
+      "target": "es5",                          // Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES6', etc.
+      "strict": true,                           // Enable all strict type-checking options.
+      "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file.
+      "skipLibCheck": true                     // Skip type checking of declaration files.
+    },
+    "include": ["src/**/*"],                    // Include all files under the 'src' folder.
+    "exclude": ["**/*.spec.ts"]                 // Exclude files ending with .spec.ts
+}

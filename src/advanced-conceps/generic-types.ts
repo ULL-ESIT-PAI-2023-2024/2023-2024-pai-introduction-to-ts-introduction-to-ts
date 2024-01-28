@@ -15,50 +15,50 @@
  * Stores a pair of elements of possibly different types.
  */
 class Pair<T, U> {
-    private first: T;
-    private second: U;
+  private first: T;
+  private second: U;
+  
+  /**
+   * Constructor for the Pair class.
+   * @param first The first element of the pair.
+   * @param second The second element of the pair.
+   */
+  constructor(first: T, second: U) {
+    this.first = first;
+    this.second = second;
+  }
 
-    /**
-     * Constructor for the Pair class.
-     * @param first The first element of the pair.
-     * @param second The second element of the pair.
-     */
-    constructor(first: T, second: U) {
-        this.first = first;
-        this.second = second;
-    }
+  /**
+   * Gets the first element of the pair.
+   * @returns The first element.
+   */
+  public getFirst(): T {
+    return this.first;
+  }
 
-    /**
-     * Gets the first element of the pair.
-     * @returns The first element.
-     */
-    public getFirst(): T {
-        return this.first;
-    }
+  /**
+   * Gets the second element of the pair.
+   * @returns The second element.
+   */
+  public getSecond(): U {
+    return this.second;
+  }
 
-    /**
-     * Gets the second element of the pair.
-     * @returns The second element.
-     */
-    public getSecond(): U {
-        return this.second;
-    }
+  /**
+   * Sets a new value for the first element.
+   * @param first The new value for the first element.
+   */
+  public setFirst(first: T): void {
+    this.first = first;
+  }
 
-    /**
-     * Sets a new value for the first element.
-     * @param first The new value for the first element.
-     */
-    public setFirst(first: T): void {
-        this.first = first;
-    }
-
-    /**
-     * Sets a new value for the second element.
-     * @param second The new value for the second element.
-     */
-    public setSecond(second: U): void {
-        this.second = second;
-    }
+  /**
+   * Sets a new value for the second element.
+   * @param second The new value for the second element.
+   */
+  public setSecond(second: U): void {
+    this.second = second;
+  }
 }
 
 // Creating a Pair instance with two numbers

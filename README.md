@@ -1,6 +1,6 @@
 ## Introduction to TypeScript
+### Evian Concepción Peña and Saúl Sosa Díaz
 ### To be used for works to be exposed in class sessions
-
 This directory is organised as follows:
 
       .
